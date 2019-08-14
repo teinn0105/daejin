@@ -1,0 +1,24 @@
+.id-box{
+  position: relative;
+}
+.id-box input:focus+label{
+  top:-7px;
+  font-size:12px;
+  background-color: #fff;
+    padding:0 10px;
+}
+label{
+  position:absolute;
+  left:10px;
+  top:12px;
+  transition:1s cubic-bezier(0, 0, 0.49, 0.77);
+}
+.id-box input:focus{
+ border-color:blue;
+}
+.id-box input{
+  transition:1s;
+ border: 2px #F00 solid;
+  border-radius:5px;
+  height: 40px;
+}
